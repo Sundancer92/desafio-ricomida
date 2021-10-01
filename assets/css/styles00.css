@@ -1,0 +1,156 @@
+body {
+  font-family: "Cabin", "Lobster", sans-serif;
+}
+
+body,
+p,
+section,
+article,
+div,
+nav,
+footer,
+ul,
+li,
+h1,
+h2,
+h3,
+ol,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.centrado {
+  text-align: center;
+}
+.brand_nav {
+  font-family: "Lobster", cursive;
+  color: #ffffff;
+  font-size: 46px;
+  padding: 7px auto 7px 37px;
+}
+.brand_news {
+  font-family: "Lobster", sans-serif;
+}
+.brand_footer {
+  font-family: "Lobster", cursive;
+  color: #ffffff;
+  font-size: 46px;
+  padding-top: 41px;
+  padding-bottom: 34px;
+}
+.newsletter {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.news_btn {
+  border-color: #dddddd;
+  color: #ffffff;
+  margin-bottom: 95px;
+  padding: 11px 90px 10px 83px;
+}
+
+footer {
+  background-color: #373a3c;
+}
+h2 {
+  font-weight: bold;
+}
+
+.contenedorManager h2 {
+  margin-bottom: 38px;
+}
+
+.card_relacionada img {
+  margin-bottom: 22px;
+}
+.contenedorManager .card_relacionada h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.card_relacionada {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 320px) {
+  hr {
+    color: #000000;
+    opacity: 100%;
+  }
+  .cardPrincipal {
+    max-width: 246px;
+  }
+  .contenedorManager {
+    padding: 0;
+    max-width: 246px;
+  }
+  .centrado {
+    text-align: center;
+  }
+
+  .card_P {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .card_container_Btn {
+    padding: 0;
+  }
+  .card_Btn {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 400;
+    padding: 12px 10px 11px 9px;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+
+  .card_porciones {
+    margin-bottom: 21px;
+  }
+
+  .contenedorManager h3,
+  h4 {
+    margin-bottom: 40px;
+  }
+  .contenedorManager li {
+    margin-bottom: 20px;
+    letter-spacing: 0.48px;
+  }
+  .contenedorManager ul li {
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+
+  .contenedorManager ul li:last-child {
+    margin-bottom: 20px;
+  }
+
+  .newsletter h2 {
+    font-size: 30px;
+    line-height: 37px;
+    padding: 95px 37px 22px 37px;
+  }
+  .newsletter p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 37px 27px 37px;
+    text-align: center;
+  }
+  .news_btn {
+    border-color: #dddddd;
+    color: #ffffff;
+    margin-bottom: 95px;
+    padding: 11px 90px 10px 83px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .hr_top {
+    display: none;
+  }
+}

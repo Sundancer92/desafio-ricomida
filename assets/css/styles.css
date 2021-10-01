@@ -1,0 +1,167 @@
+body {
+  font-family: "Cabin", "Lobster", sans-serif;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.nav-brand {
+  font-family: "Lobster";
+}
+
+hr {
+  color: #000000;
+  opacity: 100%;
+}
+
+.btn-principal {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel .carousel-indicators .active {
+  background-color: #373a3c;
+}
+
+.newsletter {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #373a3c;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-family: "Lobster";
+}
+
+@media screen and (max-width: 320px) {
+  .nav-brand {
+    font-size: 46px;
+    margin-right: 37px;
+    padding: 0;
+  }
+
+  hr {
+    width: 246px;
+    margin: 13px auto 14px;
+  }
+  .container .bad-246 {
+    width: 246px;
+    margin: 13px auto 14px;
+  }
+
+  .img-principal {
+    max-height: 196px;
+    max-width: 246px;
+    margin-bottom: 40px;
+  }
+
+  .receta-principal {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .detalles-principal {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 21px;
+  }
+
+  .btn-principal {
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .carousel-principal {
+    display: none;
+  }
+
+  .ingredientes,
+  .masa,
+  .salsa {
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .container ul {
+    list-style-type: none;
+    padding-left: 0;
+    letter-spacing: 0.48px;
+  }
+
+  ol li {
+    margin-bottom: 10px;
+  }
+
+  ol li:last-child {
+    margin-bottom: 36px;
+  }
+
+  .yeta {
+    display: none;
+  }
+
+  .recetas-relacionadas {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 38px;
+  }
+
+  .card h3 {
+    text-align: left;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 18px;
+  }
+
+  .card p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+
+  .card-receta-adicional {
+    margin-bottom: 20px;
+  }
+
+  .newsletter h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 95px;
+  }
+  .newsletter p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 22px;
+  }
+  .newsletter span {
+    font-family: "Lobster";
+  }
+
+  .newsletter button {
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    padding: 11px 90px 10px 83px;
+    margin-bottom: 105px;
+  }
+  .footer-brand {
+    padding: 41px 91px 34px 91px;
+    font-size: 37px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
