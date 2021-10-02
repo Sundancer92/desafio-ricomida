@@ -1,13 +1,17 @@
 body {
   font-family: "Cabin", "Lobster", sans-serif;
 }
-
+/* Estilos genericos */
 .centrado {
   text-align: center;
 }
-
+/*NavBar*/
 .nav-brand {
   font-family: "Lobster";
+}
+
+.navbar .ancho .nav-item a {
+  color: #ffffff;
 }
 
 hr {
@@ -19,7 +23,7 @@ hr {
   border: 1px solid #dddddd;
   background-color: #ffffff;
 }
-
+/*Carousel*/
 .carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -29,6 +33,7 @@ hr {
   background-color: #373a3c;
 }
 
+/* Newsletter */
 .newsletter {
   background-color: #dc3545;
   color: #ffffff;
@@ -38,6 +43,7 @@ hr {
   font-weight: bold;
 }
 
+/* Footer */
 footer {
   background-color: #373a3c;
   color: #ffffff;
@@ -47,22 +53,28 @@ footer {
 footer p {
   margin: 0;
 }
+
+/*Querie 320px */
 @media screen and (max-width: 320px) {
+  hr {
+    width: 246px;
+    margin: 13px auto 14px;
+  }
+
+  /*Ancho definido*/
+  .container .ancho {
+    width: 246px;
+    margin: 13px auto 14px;
+  }
+
+  /*Nav Bar*/
   .nav-brand {
     font-size: 46px;
     margin-right: 37px;
     padding: 0;
   }
 
-  hr {
-    width: 246px;
-    margin: 13px auto 14px;
-  }
-  .container .ancho {
-    width: 246px;
-    margin: 13px auto 14px;
-  }
-
+  /*Seccion Principal*/
   .img-principal {
     max-height: 196px;
     max-width: 246px;
@@ -93,6 +105,7 @@ footer p {
     display: none;
   }
 
+  /*Seccion Receta */
   .ingredientes,
   .masa,
   .salsa {
@@ -113,11 +126,12 @@ footer p {
   ol li:last-child {
     margin-bottom: 36px;
   }
-  /*Clase para elimar BR entre Carousel y Receta */
+  /* Clase para elimar BR entre Carousel y Receta */
   .yeta {
     display: none;
   }
 
+  /* Recetas Relacionadas */
   .recetas-relacionadas {
     font-size: 25px;
     line-height: 30px;
@@ -142,6 +156,7 @@ footer p {
     margin-bottom: 20px;
   }
 
+  /* Newsletter */
   .newsletter h2 {
     font-size: 30px;
     line-height: 37px;
@@ -162,6 +177,8 @@ footer p {
     padding: 11px 90px 10px 83px;
     margin-bottom: 105px;
   }
+
+  /* Footer */
   .footer-brand {
     padding: 41px 91px 34px 91px;
     font-size: 37px;
@@ -178,6 +195,11 @@ footer p {
   /* Nav Bar */
   .navbar {
     margin-bottom: 24px;
+  }
+
+  .nav-brand {
+    font-size: 37px;
+    line-height: 46px;
   }
 
   /* Seccion Principal */
@@ -258,6 +280,8 @@ footer p {
   ol li:last-child {
     margin-bottom: 93px;
   }
+
+  /* Recetas Relacionadas */
   .recetas-relacionadas {
     font-size: 40px;
     line-height: 49px;
@@ -280,6 +304,8 @@ footer p {
   .card-receta-adicional {
     margin-bottom: 79px;
   }
+
+  /* Newsletter */
   .newsletter h2 {
     font-size: 40px;
     line-height: 49px;
@@ -302,6 +328,7 @@ footer p {
     margin-bottom: 105px;
   }
 
+  /* Footer */
   .footer-brand {
     padding: 41px 571px 38px 571px;
     font-size: 37px;
