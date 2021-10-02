@@ -30,8 +30,14 @@ hr {
   height: 10px;
   border-radius: 100%;
 }
-.carousel .carousel-indicators .active {
+
+.carousel .carousel-inner .carousel-indicators li {
+  background-color: #373a3c31;
+  opacity: 100%;
+}
+.carousel .carousel-inner .carousel-indicators .active {
   background-color: #373a3c;
+  opacity: 100%;
 }
 
 /* Newsletter */
@@ -336,6 +342,7 @@ footer p {
     line-height: 46px;
   }
 }
+
 /*Estilo para JS*/
 .dblRojo {
   color: red;
