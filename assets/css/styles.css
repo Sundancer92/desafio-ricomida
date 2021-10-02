@@ -103,7 +103,7 @@ footer p {
   .container ul {
     list-style-type: none;
     padding-left: 0;
-    letter-spacing: 0.48px;
+    letter-spacing: 1px;
   }
 
   ol li {
@@ -113,7 +113,7 @@ footer p {
   ol li:last-child {
     margin-bottom: 36px;
   }
-
+  /*Clase para elimar BR entre Carousel y Receta */
   .yeta {
     display: none;
   }
@@ -170,6 +170,31 @@ footer p {
 }
 
 @media screen and (min-width: 1279px) {
+  .receta-txt-size {
+    letter-spacing: 0.6px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .ingredientes,
+  .masa,
+  .salsa {
+    margin-bottom: 20px;
+  }
+
+  .preparacion {
+    margin-bottom: 68px;
+  }
+
+  .container ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #373a3c;
+  }
+
+  ol li:last-child {
+    margin-bottom: 36px;
+  }
   .recetas-relacionadas {
     font-size: 40px;
     line-height: 49px;
