@@ -1,6 +1,10 @@
 body {
   font-family: "Cabin", "Lobster", sans-serif;
 }
+/*Estilo para Titulos en Rojo dblClick*/
+.dblRojo {
+  color: red;
+}
 /* Estilos genericos */
 .centrado {
   text-align: center;
