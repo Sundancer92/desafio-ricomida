@@ -34,13 +34,19 @@ hr {
   color: #ffffff;
 }
 
+.newsletter h2 {
+  font-weight: bold;
+}
+
 footer {
   background-color: #373a3c;
   color: #ffffff;
-  margin-bottom: 0;
   font-family: "Lobster";
 }
 
+footer p {
+  margin: 0;
+}
 @media screen and (max-width: 320px) {
   .nav-brand {
     font-size: 46px;
@@ -139,7 +145,7 @@ footer {
   .newsletter h2 {
     font-size: 30px;
     line-height: 37px;
-    margin-top: 95px;
+    padding-top: 95px;
   }
   .newsletter p {
     font-size: 20px;
@@ -163,5 +169,54 @@ footer {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1279px) {
+  .recetas-relacionadas {
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 50px;
+  }
+
+  .card h3 {
+    text-align: left;
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 22px;
+  }
+  .card p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
+  .card-receta-adicional {
+    margin-bottom: 79px;
+  }
+  .newsletter h2 {
+    font-size: 40px;
+    line-height: 49px;
+    padding-top: 150px;
+  }
+
+  .newsletter p {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 7px;
+  }
+  .newsletter span {
+    font-family: "Lobster";
+  }
+
+  .newsletter button {
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    padding: 11px 90px 10px 83px;
+    margin-bottom: 105px;
+  }
+
+  .footer-brand {
+    padding: 41px 571px 38px 571px;
+    font-size: 37px;
+    line-height: 46px;
+  }
 }
