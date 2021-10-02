@@ -170,6 +170,23 @@ footer p {
 }
 
 @media screen and (min-width: 1279px) {
+  /* Carousel */
+  .carousel-principal {
+    margin-bottom: 15px;
+  }
+  .carousel-principal ol {
+    max-height: 13px;
+  }
+
+  .carousel img {
+    min-width: 233px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+  hr {
+    max-width: 980px;
+  }
+  /* Seccion Receta */
   .receta-txt-size {
     letter-spacing: 0.6px;
     font-size: 20px;
@@ -193,7 +210,7 @@ footer p {
   }
 
   ol li:last-child {
-    margin-bottom: 36px;
+    margin-bottom: 93px;
   }
   .recetas-relacionadas {
     font-size: 40px;
