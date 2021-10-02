@@ -58,7 +58,7 @@ footer p {
     width: 246px;
     margin: 13px auto 14px;
   }
-  .container .bad-246 {
+  .container .ancho {
     width: 246px;
     margin: 13px auto 14px;
   }
@@ -66,7 +66,6 @@ footer p {
   .img-principal {
     max-height: 196px;
     max-width: 246px;
-    margin-bottom: 40px;
   }
 
   .receta-principal {
@@ -89,6 +88,7 @@ footer p {
     text-align: center;
   }
 
+  /* Carousel */
   .carousel-principal {
     display: none;
   }
@@ -170,10 +170,56 @@ footer p {
 }
 
 @media screen and (min-width: 1279px) {
+  /* Ancho definido */
+  .ancho {
+    width: 980px;
+    margin: auto;
+  }
+  /* Nav Bar */
+  .navbar {
+    margin-bottom: 24px;
+  }
+
+  /* Seccion Principal */
+  .yeta-top {
+    display: none;
+  }
+  .img-principal {
+    max-height: 384px;
+    max-width: 482px;
+  }
+  .card-principal {
+    margin-bottom: 68px;
+    max-height: 384px;
+    padding: 0;
+  }
+
+  .receta-principal {
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 7px;
+    margin-top: 34px;
+  }
+
+  .detalles-principal {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .card-principal .btn-principal:first-child {
+    margin-right: 24px;
+  }
+
+  .btn-principal {
+    font-size: 16px;
+  }
+
   /* Carousel */
   .carousel-principal {
     margin-bottom: 15px;
   }
+
   .carousel-principal ol {
     max-height: 13px;
   }
