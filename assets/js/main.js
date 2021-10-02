@@ -1,52 +1,59 @@
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-});
 
-// Seleccionando id del HTML como Variable
-const btnCorreo = document.getElementById("enviarCorreo");
+// Se definen las constantes
+    //Enviar Correo
+const botonEnviar = document.getElementById("enviarCorreo");
 
-const dblIngredientes = document.getElementById("dblIngredientes");
+    // Titulos a Rojo
+const tituloIngredientes = document.getElementById("tituloIngredientes");
+const tituloPreparacion = document.getElementById("tituloPreparacion");
 
-const dblPreparacion = document.getElementById("dblPreparacion");
-
-const cardReceta1 = document.getElementById("cardReceta1");
-const cardReceta2 = document.getElementById("cardReceta2");
-const cardReceta3 = document.getElementById("cardReceta3");
-
+    // Titulos Cards
 const tituloReceta1 = document.getElementById("tituloReceta1");
 const tituloReceta2 = document.getElementById("tituloReceta2");
 const tituloReceta3 = document.getElementById("tituloReceta3");
 
-// Agregar evento a la variable creada
-btnCorreo.addEventListener("click",function() {
-    alert("El correo fue enviado correctamente...")
-    
+// Enable tooltips everywhere
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-// Agregando estilo sobre evento dbclick
-dblPreparacion.addEventListener("dblclick",function () {
-    dblPreparacion.classList.add("dblRojo");
+// Se definen los Event Listener
+    // Enviar Correo
+botonEnviar.addEventListener("click",function(){
+    alert("El correo fue enviado correctamente..");
+});
+    // Presiona para enviar correo
+botonEnviar.addEventListener("data-toogle", function () {   
+})
+
+    // Cambiar titulos a color Rojo
+        // INGREDIENTES
+tituloIngredientes.addEventListener("dblclick",function() {
+   tituloIngredientes.classList.add('dblRojo') 
+});
+        // Preparacion
+tituloPreparacion.addEventListener("dblclick",function() {
+   tituloPreparacion.classList.add('dblRojo') 
 });
 
-dblIngredientes.addEventListener("dblclick",function() {
-    dblIngredientes.classList.add("dblRojo");
-    
-});
-
-// Desapareciendo contenido
-
-// Receta 1
+    //Desaparecer descripcion de cards
+        // Card 1
 tituloReceta1.addEventListener("click", function () {
-    cardReceta1.classList.toggle("d-none")
-})
-
-// Receta 2
+    toggleObjective1.classList.toggle('d-none');
+    toggleObjective2.classList.toggle('d-none');
+    toggleObjective3.classList.toggle('d-none');
+});
+        // Card 2
 tituloReceta2.addEventListener("click", function () {
-    cardReceta2.classList.toggle("d-none")
-})
-
-// Receta 3
+    toggleObjective1.classList.toggle('d-none');
+    toggleObjective2.classList.toggle('d-none');
+    toggleObjective3.classList.toggle('d-none');
+});
+        // Card 3
 tituloReceta3.addEventListener("click", function () {
-    cardReceta3.classList.toggle("d-none")
-})
+    toggleObjective1.classList.toggle('d-none');
+    toggleObjective2.classList.toggle('d-none');
+    toggleObjective3.classList.toggle('d-none');
+});
+
